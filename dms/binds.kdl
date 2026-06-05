@@ -131,7 +131,7 @@ binds {
     XF86Launch1 { screenshot; }
     Mod+Shift+E { quit; }
     Super+B { spawn "firefox"; }
-    Super+Q repeat=false hotkey-overlay-title="Open Terminal" { spawn "kitty"; }
+    Super+Q repeat=false hotkey-overlay-title="Open Terminal" { spawn "kitty" "--single-instance"; }
     Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     Mod+Shift+Slash { show-hotkey-overlay; }
     Mod+Tab repeat=false { toggle-overview; }
