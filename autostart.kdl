@@ -1,0 +1,2 @@
+spawn-sh-at-startup "openrgb -p system76"
+
