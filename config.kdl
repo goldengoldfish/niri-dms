@@ -321,5 +321,5 @@ include "dms/alttab.kdl"
 include "dms/binds.kdl"
 include "dms/outputs.kdl"
 include "dms/cursor.kdl"
-
+include "autostart.kdl"
 include "dms/windowrules.kdl"
